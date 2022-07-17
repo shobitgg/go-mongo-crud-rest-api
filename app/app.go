@@ -12,5 +12,5 @@ var (
 func StartApp() {
 	MapUrls()
 	domain.ConnDB()
-	router.Run(":8080")
+	router.Run(":6080")
 }
